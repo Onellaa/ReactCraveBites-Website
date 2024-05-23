@@ -2,8 +2,8 @@
   "name": "first-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://onellaa.github.io/ReactCraveBites-Website/",
   "type": "module",
+  "homepage": "https://onellaa.github.io/ReactCraveBites-Website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
