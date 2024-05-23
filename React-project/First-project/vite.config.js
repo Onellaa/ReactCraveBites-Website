@@ -10,5 +10,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/React-Pizza-App/",
+  base: "/ReactCraveBites-Website/",
 });
