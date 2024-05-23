@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.background-pic {
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header-txt {
+  margin-top: 5%;
+  font-size: 30px;
+  color: rgb(252, 143, 60);
+  position: absolute;
+  left: 19%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  top: 100px; /* Use fixed pixel value */
+}
+
+.header-txt h2 {
+  color: rgb(255, 167, 100);
+  font-size: 30px;
+  margin-top: 45%;
+  background-color: transparent;
+  font-family: "Poppins";
+}
+
+.header button {
+  position: absolute;
+  margin-top: 19%;
+  align-items: center;
+  border: none;
+  background: rgb(244, 129, 42);
+  box-shadow: 0 0 10px rgb(253, 180, 124), 0 0 10px rgb(244, 182, 134),
+    0 0 30px rgb(254, 183, 128);
+  padding: 25px 40px;
+  border-radius: 100px;
+  font-size: 20px;
+  color: azure;
+  left: 13%;
+  font-weight: bold;
+  cursor: pointer;
+  top: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .background-pic {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .header-txt {
+    margin-top: 13%;
+    color: rgb(252, 143, 60);
+    position: absolute;
+    left: 24%;
+    transform: translateX(-50%);
+    background-color: transparent;
+  }
+
+  .header-txt h2 {
+    color: rgb(255, 167, 100);
+    font-size: 17px;
+    margin-top: 45%;
+    background-color: transparent;
+    font-family: "Poppins";
+  }
+
+  .header button {
+    position: absolute;
+    margin-top: 27%;
+    align-items: center;
+    border: none;
+    background: rgb(244, 129, 42);
+    box-shadow: 0 0 10px rgb(253, 180, 124), 0 0 10px rgb(244, 182, 134),
+      0 0 30px rgb(254, 183, 128);
+    padding: 15px 15px;
+    border-radius: 100px;
+    font-size: 15px;
+    color: azure;
+    left: 19%;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+/* 
+@media only screen and (max-width: 900px) {
+  .background-pic {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .header-txt {
+    margin-top: 13%;
+    color: rgb(252, 143, 60);
+    position: absolute;
+    left: 23%;
+    transform: translateX(-50%);
+    background-color: transparent;
+  }
+
+  .header-txt h2 {
+    color: rgb(255, 167, 100);
+    font-size: 20px;
+    margin-top: 36%;
+    background-color: transparent;
+    font-family: "Poppins";
+  }
+
+  .header button {
+    position: absolute;
+    margin-top: 27%;
+    align-items: center;
+    border: none;
+    background: rgb(244, 129, 42);
+    box-shadow: 0 0 10px rgb(253, 180, 124), 0 0 10px rgb(244, 182, 134),
+      0 0 30px rgb(254, 183, 128);
+    padding: 15px 15px;
+    border-radius: 100px;
+    font-size: 15px;
+    color: azure;
+    left: 17%;
+    font-weight: bold;
+    cursor: pointer;
+  }
+} */

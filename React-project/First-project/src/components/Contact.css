@@ -1,0 +1,85 @@
+.contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  color: aliceblue;
+}
+
+.contact .left {
+  background-image: url("../assets/fastfood.png"); /* Use the correct path to your image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .right h1 {
+  margin-bottom: 100px;
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+
+.contact .right {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact .right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .right label {
+  margin-bottom: 5px;
+}
+
+.contact .right input,
+.contact .right textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: azure;
+}
+
+.contact .right button.submit {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(244, 129, 42);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.contact .right button.submit:hover {
+  background-color: rgb(220, 110, 30);
+}
+
+@media only screen and (max-width: 600px) {
+  .contact .left,
+  .contact .right {
+    flex: 100%;
+    height: auto;
+  }
+
+  .contact .right h1 {
+    margin-bottom: 50px;
+  }
+
+  .contact .left {
+    width: fit-content;
+    background-size: 800px;
+    height: auto;
+  }
+}
